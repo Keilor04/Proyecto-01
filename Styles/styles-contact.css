@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: #000000;
+    height: 100%;
+}
+
+.contenedor {
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+/* Aqui inicia la barra de navegación */
+
+/* Aqui se detalla la información general de la barra de navegación */
+.navegacion-principal {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: #002b35;
+}
+
+/* Aqui se detalla la información del logo de marca */
+.navegacion-principal_marca a i {
+    align-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+/* Aqui se detalla la información del menu*/
+
+.navegacion-principal__menu li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.navegacion-principal__menu li a {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Aqui se detalla la información del logo de marca */
+.navegacion-principal__menu-derecha i {
+    display: inline-block;
+    align-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Aqui inicia el main */
+
+
+.formulario {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    color: #fff;
+    background-origin: padding-box;
+    padding: 10px;
+    line-height: 50px;
+    height: 600px;
+    background-color: #105263;
+}
+
+.formulario img {
+    width: 90%;
+    height: 100px;
+}
+
+form {
+    padding: 10px;
+}
+
+.boton {
+    padding: 5px;
+    margin: 5px;
+}
+
+.boton:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.Img-registro{
+    background-image: url(../Assets/Img\ project/Registro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 30px;
+    border-radius: 30px;
+    height: 500px;
+    width: auto;
+}
+
+/* Aqui inicia el pie de página */
+footer {
+    background-color: #34404d;
+    padding: 30px;
+    height: 450px;
+}
+
+footer h3 {
+    color: rgb(245, 243, 240);
+    text-align: center;
+}
+
+footer h3 img {
+    scale: 70%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.enlaces-pie {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.enlaces-pie__contenedor h3 {
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #ffffff27;
+    display: inline;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.enlaces-pie__contenedor ul li {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.enlaces-pie__contenedor ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.enlaces-pie__contenedor ul li a img {
+    border-radius: 30px;
+    height: auto;
+}

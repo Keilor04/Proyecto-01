@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: #000000;
+    height: 100%;
+}
+
+.contenedor {
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+/* Aqui inicia la barra de navegación */
+
+/* Aqui se detalla la información general de la barra de navegación */
+.navegacion-principal {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: #002b35;
+}
+
+/* Aqui se detalla la información del logo de marca */
+.navegacion-principal_marca a i {
+    align-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+/* Aqui se detalla la información del menu*/
+
+.navegacion-principal__menu li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.navegacion-principal__menu li a {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Aqui se detalla la información del logo de marca */
+.navegacion-principal__menu-derecha i {
+    display: inline-block;
+    align-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    color: #fff;
+}
+ 
+/* Aqui inicia el main */
+
+/* Aqui inicia la segunda sección del main, llamada banner-tarjetas-uno */
+
+.banner-tarjetas-uno {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    background-color:#e2ded7;
+}
+
+.banner-tarjetas-uno__contenido01 {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    line-height: 50px;
+}
+
+.banner-tarjetas-uno__contenido01 h2 {
+    color: black;
+    margin: 5px;
+}
+
+.banner-tarjetas-uno__contenido01 img{
+    width: 90%;
+}
+
+/* Aqui inicia el pie de página */
+footer {
+    background-color: #34404d;
+    padding: 30px;
+}
+
+footer h3 {
+    color: rgb(245, 243, 240);
+    text-align: center;
+}
+footer h3 img{
+scale: 70%;
+border-radius: 50px;
+}
+.enlaces-pie {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.enlaces-pie__contenedor h3 {
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #ffffff27;
+    display: inline;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.enlaces-pie__contenedor ul li {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.enlaces-pie__contenedor ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.enlaces-pie__contenedor ul li a img {
+    border-radius: 30px;
+}
+
